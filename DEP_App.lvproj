@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Property Name="varPersistentID:{12804410-6CD9-45FF-9D50-FB373BE975CF}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Stop RT</Property>
+	<Property Name="varPersistentID:{518FECC4-827C-4CA8-B14B-C4A08FFE368D}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/AnalogInput</Property>
 	<Property Name="varPersistentID:{5B2D425F-8714-4B7A-AAB9-3A7E9EB484DF}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Start Count Input</Property>
 	<Property Name="varPersistentID:{6DF4A74C-DADD-4E7E-9D06-562BB9CB6612}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Analog streaming</Property>
 	<Property Name="varPersistentID:{8207A88D-C939-4AE1-9747-3DF82D953EEB}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Data Streaming</Property>
@@ -102,7 +103,6 @@
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PC_read_n_count_buffer_elements.vi" Type="VI" URL="../PC_read_n_count_buffer_elements.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
