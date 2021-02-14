@@ -1,13 +1,22 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Property Name="varPersistentID:{12804410-6CD9-45FF-9D50-FB373BE975CF}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Stop RT</Property>
-	<Property Name="varPersistentID:{518FECC4-827C-4CA8-B14B-C4A08FFE368D}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/AnalogInput</Property>
-	<Property Name="varPersistentID:{5B2D425F-8714-4B7A-AAB9-3A7E9EB484DF}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Start Count Input</Property>
-	<Property Name="varPersistentID:{6DF4A74C-DADD-4E7E-9D06-562BB9CB6612}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Analog streaming</Property>
-	<Property Name="varPersistentID:{8207A88D-C939-4AE1-9747-3DF82D953EEB}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Data Streaming</Property>
-	<Property Name="varPersistentID:{8F0F15E4-DFF7-4930-B502-4AA7EBC1E0DF}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Count Streaming</Property>
+	<Property Name="varPersistentID:{3E1B5E68-B176-433C-9C68-B215BE84DCDD}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Streams Health/clusters/RT_FPGA_Memory_and_FIFOs</Property>
+	<Property Name="varPersistentID:{518FECC4-827C-4CA8-B14B-C4A08FFE368D}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Start\/Stop Input/AnalogInput</Property>
+	<Property Name="varPersistentID:{5B2D425F-8714-4B7A-AAB9-3A7E9EB484DF}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Start\/Stop Input/Start Count Input</Property>
+	<Property Name="varPersistentID:{62EE90BC-33FA-44C9-922F-CD61958ABEC5}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Streams Health/Network Stream Counts Full</Property>
+	<Property Name="varPersistentID:{6DF4A74C-DADD-4E7E-9D06-562BB9CB6612}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Start\/Stop Input/Analog streaming</Property>
+	<Property Name="varPersistentID:{768572E7-C489-4BB6-AFBD-0237DD646DCA}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Streams Health/RT FIFO AI full</Property>
+	<Property Name="varPersistentID:{8207A88D-C939-4AE1-9747-3DF82D953EEB}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Start\/Stop Input/Data Streaming</Property>
+	<Property Name="varPersistentID:{84C125C5-0618-406F-A1E4-D701F7A8CDEA}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Streams Health/Elements In RT FIFO AI</Property>
+	<Property Name="varPersistentID:{8F0F15E4-DFF7-4930-B502-4AA7EBC1E0DF}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Start\/Stop Input/Count Streaming</Property>
 	<Property Name="varPersistentID:{9695F145-32CE-464E-B923-790FADFCDDDB}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Streaming Parameters</Property>
-	<Property Name="varPersistentID:{B33976F7-36E9-43CC-95C5-5202908EA2A8}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Start Analog input</Property>
+	<Property Name="varPersistentID:{B33976F7-36E9-43CC-95C5-5202908EA2A8}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Start\/Stop Input/Start Analog input</Property>
+	<Property Name="varPersistentID:{B34C3A2F-EF11-49FC-BF51-9EF2B805261D}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Streams Health/Elements In RT FIFO Counts</Property>
+	<Property Name="varPersistentID:{BF2929D8-DB9E-42F2-8C43-2CA0E82F35F4}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Streams Health/RT FIFO Counts full</Property>
+	<Property Name="varPersistentID:{E7E6BF60-08C3-47E7-9005-040EC99E4B44}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Streams Health/Network Stream AI Full</Property>
+	<Property Name="varPersistentID:{EA4CCAA0-C516-422D-B34A-CE6CDCA329A0}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Streams Health/clusters/RT CPU Load</Property>
+	<Property Name="varPersistentID:{EAA7178E-E6E9-48DD-B941-50EB470DC2CF}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Streams Health/clusters/RT_FIFO_health</Property>
 	<Property Name="varPersistentID:{EBC42227-F4BF-4879-8044-B69AC5C52DFE}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Data Stream Timestamp</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -24,6 +33,7 @@
 			<Item Name="PC_create_unique_tdms_file.vi" Type="VI" URL="../PC_create_unique_tdms_file.vi"/>
 			<Item Name="PC_decimate_waveform.vi" Type="VI" URL="../PC_decimate_waveform.vi"/>
 			<Item Name="PC_edit_siglent_waveform.vi" Type="VI" URL="../PC_edit_siglent_waveform.vi"/>
+			<Item Name="PC_make_spectra.vi" Type="VI" URL="../PC_make_spectra.vi"/>
 			<Item Name="PC_monitor_streaming_health.vi" Type="VI" URL="../PC_monitor_streaming_health.vi"/>
 			<Item Name="PC_read_n_AI_buffer_elements.vi" Type="VI" URL="../PC_read_n_AI_buffer_elements.vi"/>
 			<Item Name="PC_Rebin_Counts.vi" Type="VI" URL="../PC_Rebin_Counts.vi"/>
@@ -39,6 +49,7 @@
 			<Item Name="Timing monitoring.ctl" Type="VI" URL="../Timing monitoring.ctl"/>
 		</Item>
 		<Item Name="PC_Main.vi" Type="VI" URL="../PC_Main.vi"/>
+		<Item Name="PC_TDMS_reader.vi" Type="VI" URL="../PC_TDMS_reader.vi"/>
 		<Item Name="PC_Test_Network_Streams.vi" Type="VI" URL="../PC_Test_Network_Streams.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
@@ -88,8 +99,11 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="NI_MAPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MAPro.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Number of Waveform Samples.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Number of Waveform Samples.vi"/>
@@ -139,6 +153,7 @@
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="RT_only_FIFO_Health.ctl" Type="VI" URL="../RT_only_FIFO_Health.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
@@ -1409,6 +1424,11 @@ AddOutputFilter chunkFilter
 		<Item Name="Host-Target shared variables.lvlib" Type="Library" URL="../Host-Target shared variables.lvlib"/>
 		<Item Name="RT_Main.vi" Type="VI" URL="../RT_Main.vi"/>
 		<Item Name="RT_Test_DAQmx.vi" Type="VI" URL="../RT_Test_DAQmx.vi"/>
+		<Item Name="RT_FIFO_Health.ctl" Type="VI" URL="../RT_FIFO_Health.ctl"/>
+		<Item Name="RT_check_health.vi" Type="VI" URL="../RT_check_health.vi"/>
+		<Item Name="RT_CPU_load.ctl" Type="VI" URL="../RT_CPU_load.ctl"/>
+		<Item Name="RT_only_FIFO_Health.ctl" Type="VI" URL="../RT_only_FIFO_Health.ctl"/>
+		<Item Name="RT__only_FIFO_healty.vi" Type="VI" URL="../RT__only_FIFO_healty.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
@@ -1524,12 +1544,17 @@ AddOutputFilter chunkFilter
 				<Item Name="DAQmx Create Virtual Channel.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/channels.llb/DAQmx Create Virtual Channel.vi"/>
 				<Item Name="DAQmx Connect Terminals.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/configure/routing.llb/DAQmx Connect Terminals.vi"/>
 				<Item Name="DAQmx Create Task.vi" Type="VI" URL="/&lt;vilib&gt;/DAQmx/create/task.llb/DAQmx Create Task.vi"/>
+				<Item Name="NI_Real-Time Target Support.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI_Real-Time Target Support.lvlib"/>
+				<Item Name="ni_emb.dll" Type="Document" URL="/&lt;vilib&gt;/ni_emb.dll"/>
 			</Item>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Streaming Parameters.ctl" Type="VI" URL="../Streaming Parameters.ctl"/>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
