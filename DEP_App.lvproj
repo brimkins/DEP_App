@@ -31,6 +31,7 @@
 			<Item Name="PC_edit_siglent_waveform.vi" Type="VI" URL="../PC_edit_siglent_waveform.vi"/>
 			<Item Name="PC_make_spectra.vi" Type="VI" URL="../PC_make_spectra.vi"/>
 			<Item Name="PC_monitor_streaming_health.vi" Type="VI" URL="../PC_monitor_streaming_health.vi"/>
+			<Item Name="PC_read_FIFO_Health_and_CPU_and_memory.vi" Type="VI" URL="../PC_read_FIFO_Health_and_CPU_and_memory.vi"/>
 			<Item Name="PC_read_n_AI_buffer_elements.vi" Type="VI" URL="../PC_read_n_AI_buffer_elements.vi"/>
 			<Item Name="PC_Rebin_Counts.vi" Type="VI" URL="../PC_Rebin_Counts.vi"/>
 			<Item Name="PC_save_unique_file_certain_time.vi" Type="VI" URL="../PC_save_unique_file_certain_time.vi"/>
@@ -45,10 +46,9 @@
 			<Item Name="Timing monitoring.ctl" Type="VI" URL="../Timing monitoring.ctl"/>
 		</Item>
 		<Item Name="PC_Main.vi" Type="VI" URL="../PC_Main.vi"/>
-		<Item Name="PC_read_FIFO_Health_and_CPU_and_memory.vi" Type="VI" URL="../PC_read_FIFO_Health_and_CPU_and_memory.vi"/>
+		<Item Name="PC_sum_array.vi" Type="VI" URL="../PC_sum_array.vi"/>
 		<Item Name="PC_TDMS_reader.vi" Type="VI" URL="../PC_TDMS_reader.vi"/>
 		<Item Name="PC_Test_Network_Streams.vi" Type="VI" URL="../PC_Test_Network_Streams.vi"/>
-		<Item Name="PC_waveforms_in_queue.ctl" Type="VI" URL="../PC_waveforms_in_queue.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Siglent SDG 1000 5000 800 Series.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Siglent SDG 1000 5000 800 Series/Siglent SDG 1000 5000 800 Series.lvlib"/>
@@ -74,6 +74,7 @@
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
 				<Item Name="DTbl Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Size.vi"/>
 				<Item Name="DTbl Digital Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DTblOps.llb/DTbl Digital Subset.vi"/>
+				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
 				<Item Name="DWDT Digital Size.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Digital Size.vi"/>
 				<Item Name="DWDT Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Error Code.vi"/>
 				<Item Name="DWDT Get Final Time Value.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/DWDTOps.llb/DWDT Get Final Time Value.vi"/>
@@ -94,6 +95,7 @@
 				<Item Name="Get Waveform Subset.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Get Waveform Subset.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
@@ -120,6 +122,7 @@
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
+				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="Waveform Duration.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/Waveform Duration.vi"/>
 				<Item Name="WDT Append Waveforms CDB.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Append Waveforms CDB.vi"/>
