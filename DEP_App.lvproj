@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="20008000">
 	<Property Name="varPersistentID:{034C6C26-2145-41A3-A182-82EE2AB35BD6}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/NumberOfChannels</Property>
+	<Property Name="varPersistentID:{07791F96-DE78-43E5-BE0B-D53CBF21D0CD}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Binning Time</Property>
 	<Property Name="varPersistentID:{12804410-6CD9-45FF-9D50-FB373BE975CF}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Stop RT</Property>
 	<Property Name="varPersistentID:{27CA4704-1927-4F3B-A987-4C94C5F5CCE7}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Streams Health/FPGA AI Underflow</Property>
 	<Property Name="varPersistentID:{3E1B5E68-B176-433C-9C68-B215BE84DCDD}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Streams Health/clusters/RT_Memory</Property>
@@ -9,6 +10,7 @@
 	<Property Name="varPersistentID:{768572E7-C489-4BB6-AFBD-0237DD646DCA}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Streams Health/RT FIFO full</Property>
 	<Property Name="varPersistentID:{8207A88D-C939-4AE1-9747-3DF82D953EEB}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Start\/Stop Input/Data Streaming</Property>
 	<Property Name="varPersistentID:{84C125C5-0618-406F-A1E4-D701F7A8CDEA}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Streams Health/Elements In RT FIFO</Property>
+	<Property Name="varPersistentID:{8EB2239B-6E43-4150-9BA6-CC433C5E0CB4}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/DIO</Property>
 	<Property Name="varPersistentID:{C9759395-5C3E-401C-B521-C9FBFA1DA95E}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Streams Health/FPGA FIFO Full</Property>
 	<Property Name="varPersistentID:{E7E6BF60-08C3-47E7-9005-040EC99E4B44}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Streams Health/Network Stream Full</Property>
 	<Property Name="varPersistentID:{EA4CCAA0-C516-422D-B34A-CE6CDCA329A0}" Type="Ref">/NI-cRIO-9040-01F4D67A/Host-Target shared variables.lvlib/Streams Health/clusters/RT CPU Load</Property>
@@ -45,6 +47,7 @@
 			<Item Name="Streaming Parameters.ctl" Type="VI" URL="../Streaming Parameters.ctl"/>
 			<Item Name="Timing monitoring.ctl" Type="VI" URL="../Timing monitoring.ctl"/>
 		</Item>
+		<Item Name="PC_DIO_Cluster.ctl" Type="VI" URL="../PC_DIO_Cluster.ctl"/>
 		<Item Name="PC_Main.vi" Type="VI" URL="../PC_Main.vi"/>
 		<Item Name="PC_sum_array.vi" Type="VI" URL="../PC_sum_array.vi"/>
 		<Item Name="PC_TDMS_reader.vi" Type="VI" URL="../PC_TDMS_reader.vi"/>
@@ -1643,6 +1646,7 @@ AddOutputFilter chunkFilter
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="PC_DIO_Cluster.ctl" Type="VI" URL="../PC_DIO_Cluster.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
