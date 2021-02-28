@@ -1,5 +1,5 @@
 [My Computer]
-My Computer = "172.22.11.1"
+My Computer = "169.254.244.206"
 
 [NI-cRIO-9040-01F4D67A]
-NI-cRIO-9040-01F4D67A = "172.22.11.2"
+NI-cRIO-9040-01F4D67A = "169.254.47.123"
