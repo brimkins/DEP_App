@@ -48,6 +48,9 @@
 			<Item Name="Streaming Parameters.ctl" Type="VI" URL="../Streaming Parameters.ctl"/>
 			<Item Name="Timing monitoring.ctl" Type="VI" URL="../Timing monitoring.ctl"/>
 		</Item>
+		<Item Name="channel_modulation_parameters.ctl" Type="VI" URL="../channel_modulation_parameters.ctl"/>
+		<Item Name="channel_parameters.ctl" Type="VI" URL="../channel_parameters.ctl"/>
+		<Item Name="channel_signal_parameters.ctl" Type="VI" URL="../channel_signal_parameters.ctl"/>
 		<Item Name="output_headers.ctl" Type="VI" URL="../output_headers.ctl"/>
 		<Item Name="output_settings.ctl" Type="VI" URL="../output_settings.ctl"/>
 		<Item Name="output_settings_headers.ctl" Type="VI" URL="../output_settings_headers.ctl"/>
