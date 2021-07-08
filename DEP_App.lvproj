@@ -48,9 +48,13 @@
 			<Item Name="Streaming Parameters.ctl" Type="VI" URL="../Streaming Parameters.ctl"/>
 			<Item Name="Timing monitoring.ctl" Type="VI" URL="../Timing monitoring.ctl"/>
 		</Item>
+		<Item Name="output_headers.ctl" Type="VI" URL="../output_headers.ctl"/>
+		<Item Name="output_settings.ctl" Type="VI" URL="../output_settings.ctl"/>
+		<Item Name="output_settings_headers.ctl" Type="VI" URL="../output_settings_headers.ctl"/>
 		<Item Name="PC_DIO_Cluster.ctl" Type="VI" URL="../PC_DIO_Cluster.ctl"/>
 		<Item Name="PC_FPGA_routine_1_pulsing_typedef.ctl" Type="VI" URL="../PC_FPGA_routine_1_pulsing_typedef.ctl"/>
 		<Item Name="PC_Main.vi" Type="VI" URL="../PC_Main.vi"/>
+		<Item Name="PC_save_output_settings_to_csv.vi" Type="VI" URL="../PC_save_output_settings_to_csv.vi"/>
 		<Item Name="PC_TDMS_reader.vi" Type="VI" URL="../PC_TDMS_reader.vi"/>
 		<Item Name="PC_Test_Network_Streams.vi" Type="VI" URL="../PC_Test_Network_Streams.vi"/>
 		<Item Name="RT_CPU_and_memory.ctl" Type="VI" URL="../RT_CPU_and_memory.ctl"/>
@@ -154,6 +158,11 @@
 				<Item Name="WDT Number of Waveform Samples SGL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Number of Waveform Samples SGL.vi"/>
 				<Item Name="WDT Waveform Duration DBL.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform Duration DBL.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Write Delimited Spreadsheet (DBL).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (DBL).vi"/>
+				<Item Name="Write Delimited Spreadsheet (I64).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (I64).vi"/>
+				<Item Name="Write Delimited Spreadsheet (string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet (string).vi"/>
+				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
+				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="NiFpgaLv.dll" Type="Document" URL="NiFpgaLv.dll">
