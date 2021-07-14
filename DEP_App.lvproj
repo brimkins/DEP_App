@@ -56,6 +56,7 @@
 		<Item Name="output_settings_headers.ctl" Type="VI" URL="../output_settings_headers.ctl"/>
 		<Item Name="PC_DIO_Cluster.ctl" Type="VI" URL="../PC_DIO_Cluster.ctl"/>
 		<Item Name="PC_FPGA_routine_1_pulsing_typedef.ctl" Type="VI" URL="../PC_FPGA_routine_1_pulsing_typedef.ctl"/>
+		<Item Name="PC_initialize_logging_file.vi" Type="VI" URL="../PC_initialize_logging_file.vi"/>
 		<Item Name="PC_Main.vi" Type="VI" URL="../PC_Main.vi"/>
 		<Item Name="PC_save_output_settings_to_csv.vi" Type="VI" URL="../PC_save_output_settings_to_csv.vi"/>
 		<Item Name="PC_TDMS_reader.vi" Type="VI" URL="../PC_TDMS_reader.vi"/>
